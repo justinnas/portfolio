@@ -18,12 +18,15 @@ const buttonVariants = cva(
 				link: 'text-primary underline-offset-4 hover:underline',
 				joutline:
 					'bg-background/10 text-primary rounded-full border border-gray-500 hover:border-primary focus:outline-none text-lg sm:text-xl md:text-2xl 2xl:text-lg text-left justify-start items-center pl-0 gap-4',
+				joutlineSmall:
+					'bg-background/10 text-primary rounded-full border border-gray-500 hover:border-primary focus:outline-none text-sm sm:text-sm md:text-md 2xl:text-md text-left justify-start items-center pl-0 gap-4',
 			},
 			size: {
 				default: 'h-9 px-4 py-2',
 				sm: 'h-8 rounded-md px-3 text-xs',
 				lg: 'h-10 rounded-md px-8',
 				xl: 'h-10 rounded-lg px-10',
+				r_xl: 'h-12 sm:h-12 md:h-14 2xl:h-14 rounded-full px-6',
 				r_xxl: 'h-14 sm:h-16 md:h-20 2xl:h-14 rounded-full px-6',
 				icon: 'h-9 w-9',
 			},
