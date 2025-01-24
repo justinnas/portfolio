@@ -17,7 +17,7 @@ const buttonVariants = cva(
 				ghost: 'hover:bg-accent hover:text-accent-foreground',
 				link: 'text-primary underline-offset-4 hover:underline',
 				joutline:
-					'bg-background/10 text-primary rounded-full border border-gray-500 hover:border-primary focus:outline-none text-lg sm:text-xl md:text-2xl 2xl:text-lg text-left justify-start items-center pl-0 gap-4',
+					'bg-background/10 text-primary rounded-full border border-gray-500 hover:border-primary focus:outline-none text-md sm:text-lg md:text-2xl 2xl:text-lg text-left justify-start items-center pl-0 gap-4',
 				joutlineSmall:
 					'bg-background/10 text-primary rounded-full border border-gray-500 hover:border-primary focus:outline-none text-sm sm:text-sm md:text-md 2xl:text-md text-left justify-start items-center pl-0 gap-4',
 			},

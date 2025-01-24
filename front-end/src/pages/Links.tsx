@@ -17,22 +17,20 @@ export const Links = () => {
 	return (
 		<div className="h-screen w-screen flex items-center justify-center overflow-auto bg-[url('/assets/img/lensflarebg.jpg')] bg-cover bg-center">
 			<div className='flex items-center justify-center overflow-auto'>
-				<div className='w-72 sm:w-80 md:w-96 2xl:w-80'>
+				<div className='w-64 sm:w-72 md:w-96 2xl:w-80'>
 					<div>
 						<BlurFade delay={0.1} inView>
-							<h1 className='text-4xl sm:text-6xl md:text-7xl 2xl:text-4xl font-black text-left'>
+							<h1 className='text-3xl sm:text-5xl md:text-7xl 2xl:text-4xl font-black text-left'>
 								JUSTINAS
 								<br />
 								TESELIS
 							</h1>
 						</BlurFade>
 						<BlurFade delay={0.2} inView>
-							<h3 className='text-md sm:text-lg md:text-xl 2xl:text-base text- text-left text-gray-500'>
-								Photographer
-							</h3>
+							<h3 className='text-sm sm:text-md md:text-lg 2xl:text-base text-left text-gray-500'>Photographer</h3>
 						</BlurFade>
 						<BlurFade delay={0.3} inView>
-							<h3 className='text-md sm:text-lg md:text-xl 2xl:text-base pb-10 gap-2 text-left text-gray-500 flex items-center'>
+							<h3 className='text-sm sm:text-md md:text-lg 2xl:text-base pb-10 gap-2 text-left text-gray-500 flex items-center'>
 								<GrLocation /> Lithuania
 							</h3>
 						</BlurFade>
