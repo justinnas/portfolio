@@ -1,16 +1,10 @@
-import { Routes, Route, BrowserRouter } from 'react-router-dom';
-import { Home } from './routes/Home';
-import { Links } from './routes/Links';
+import { RouterProvider } from 'react-router-dom';
+import { router } from '@/router';
 
 function App() {
 	return (
 		<>
-			<BrowserRouter>
-				<Routes>
-					<Route path='/' element={<Home />} />
-					<Route path='/links' element={<Links />} />
-				</Routes>
-			</BrowserRouter>
+			<RouterProvider router={router} />
 		</>
 	);
 }
