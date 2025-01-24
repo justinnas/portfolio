@@ -15,7 +15,7 @@ export const Links = () => {
 	});
 
 	return (
-		<div className="h-screen w-screen flex items-center justify-center overflow-auto bg-[url('src/assets/img/lensflarebg.jpg')] bg-cover bg-center">
+		<div className="h-screen w-screen flex items-center justify-center overflow-auto bg-[url('/assets/img/lensflarebg.jpg')] bg-cover bg-center">
 			<div className='flex items-center justify-center overflow-auto'>
 				<div className='w-72 sm:w-80 md:w-96 2xl:w-80'>
 					<div>
